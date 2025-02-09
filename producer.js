@@ -1,5 +1,10 @@
 const {Queue}=require("bullmq");
-const notifQueue=new Queue('email-queue');
+const notifQueue=new Queue('email-queue',{
+connection:{
+host:"localhost",
+port:6379}
+}
+);
 const init=async()=>{
 
 const res=await notifQueue.add("Email to Raza",{
