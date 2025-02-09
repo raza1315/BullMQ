@@ -1,0 +1,21 @@
+{
+  "name": "bullmq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raza1315/BullMQ.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/raza1315/BullMQ/issues"
+  },
+  "homepage": "https://github.com/raza1315/BullMQ#readme",
+  "description": ""
+}
